@@ -1,0 +1,138 @@
+
+body {
+    background-color: black;
+    overflow-y: scroll;
+}
+
+#navbar {
+    /*border: 2px solid red;*/
+    border-bottom: 2px solid white;
+    position: fixed;
+    left: 32%;
+    z-index: 5;
+    background-color: black;
+    top: 0;
+}
+
+
+#navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background-color: #cf1010;*/
+    overflow: hidden;
+    /*border: 2px solid red;*/
+}
+
+.navbar-item {
+    float: left;
+    padding: 8px;
+    /*border: 2px solid red;*/
+}
+
+
+.navbar-item a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+
+a:hover {
+    color: rgb(255, 209, 220);
+}
+
+#content {
+    position: relative;
+    top: 100px;
+    /*border: 2px solid red;*/
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    color: white;
+    /*border: 2px solid red;*/
+    display: inline;
+    margin-left: 40px;
+    line-height: 1.3;
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::selection {
+    background-color: rgb(255, 209, 220);
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+#pfp {
+    border-radius: 50%;
+    width: 200px;
+    /*border: 2px solid red;*/
+    float: left;
+    padding-right: 17px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    /*border: 2px solid red;*/
+}
+
+#writing-list {
+    position: relative;
+    top: 100px;
+    width: 65%;
+    margin: auto;
+    /*border: 2px solid red;*/
+}
+
+#writing-list li {
+    padding: 7px;
+    /*border: 2px solid red;*/
+    font-size: 1.5vw;
+}
+
+.writing-content {
+    position: relative;
+    top: 100px;
+    width: 65%;
+    margin: auto;
+    /*border: 2px solid red;*/
+    margin-bottom: 15%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#art-content {
+    position: relative;
+    top: 100px;
+    /*margin-bottom: 15%;*/
+    /*border: 2px solid green;*/
+}
+
+.art-picture {
+    width: 23%;
+    padding-left: 20px;;
+}
+
+#contact-content {
+    position: relative;
+    top: 100px;
+}
+ label {
+     color: white;
+ }
+
+
